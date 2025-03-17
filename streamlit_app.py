@@ -2,7 +2,8 @@ import streamlit as st
 import pandas as pd
 
 # App Title
-st.title("Data App Assignment, on Oct 7th")
+st.title("Data App Assignment")
+st.subheader("~ by Prakhyat Dasari")
 
 # Load Data
 df = pd.read_csv("Superstore_Sales_utf8.csv", parse_dates=["Order_Date"])
